@@ -130,7 +130,7 @@ async def hint(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # --- Запуск бота ---
 if __name__ == "__main__":
-    app = ApplicationBuilder().token("8282472753:AAG3eC_GmrtSqHxO1ay43qhHsNGgqdcYN4A").build()
+    app = ApplicationBuilder().token("8282472753:AAHlw5Sfjnco0iKJHF2UtDdXD7ucqihd6GQ").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("quiz", quiz))
